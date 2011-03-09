@@ -6,6 +6,8 @@ SampleApp::Application.routes.draw do
   get "pages/about"
   
   get "pages/help"
+  
+  get "images/logo.png"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
