@@ -12,8 +12,8 @@ header {
 }
 
 header img {
-	padding: lem;
-	background: #cff;
+	padding: 5px;
+	background: #fff;
 }
 
 section {
@@ -35,7 +35,7 @@ a {
 }
 
 a:hover{
-	color: #069;
+	color: #09c;
 	text-decoration: underline;
 }
 
@@ -49,8 +49,10 @@ nav {
 
 nav {
 	background-color: white;
-	padding: 0 0.7em;
+	padding: 0 3em;
 	white-space: nowrap;
+	text-align: center;
+	
 }
 
 nav ul li {
@@ -82,10 +84,30 @@ a.signup_button {
 	background: #00008B;
 	font-size: 150%;
 	font-weight: bold;
-	padding: 20px;
+	padding: 20px;	
 }
 
- a.signup:hover {
-	background: #006400;
+a.signup_button:hover {
+	background-color: #006400;
+}
+
+/* Round Corners */
+
+.round {
+	-moz-border=radius: 10px;
+	-webkit-border-radius: 15px;
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer nav {
+	float: none;
 }
 

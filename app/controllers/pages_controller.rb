@@ -14,9 +14,5 @@ class PagesController < ApplicationController
   def help
     @title = "Help"
   end
-  
-  def logo
-    @logo = images/logo.png
-  end
 
 end
